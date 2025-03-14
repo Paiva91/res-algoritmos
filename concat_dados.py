@@ -1,10 +1,7 @@
-def main():
-    dado1 = input("Digite o primeiro dado: ")
-    dado2 = input("Digite o segundo dado: ")
 
-    resultado = dado1 + dado2
+dado1 = input("Digite o primeiro dado: ")
+dado2 = input("Digite o segundo dado: ")
 
-    print("Resultado da concatenação:", resultado)
+resultado = dado1 + " " + dado2
 
-if __name__ == "__main__":
-    main()
+print("Resultado da concatenação:", resultado)
